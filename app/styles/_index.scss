@@ -1,0 +1,27 @@
+html {
+  body {
+    header {
+      text-align: center;
+      margin: 1em;
+
+      .logo {
+        @include inline-block;
+        width: 50vw;
+      }
+    }
+
+    footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+
+@media (min-width: 40rem) {
+  html body header .logo {
+    width: 30vw;
+  }
+}
