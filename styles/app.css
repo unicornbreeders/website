@@ -1,0 +1,96 @@
+/* Small screens (default) */
+html {
+  font-size: 100%; }
+
+/* Medium screens (640px) */
+@media (min-width: 40rem) {
+  html {
+    font-size: 112%; } }
+/* Large screens (1024px) */
+@media (min-width: 64rem) {
+  html {
+    font-size: 120%; } }
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container {
+  margin: 2vh auto;
+  max-width: 48rem;
+  width: 90%;
+  min-height: 100%;
+  position: relative; }
+
+@media (min-width: 40rem) {
+  .column {
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  .column.full {
+    width: 100%; }
+
+  .column.two-thirds {
+    width: 66.7%; }
+
+  .column.half {
+    width: 50%; }
+
+  .column.third {
+    width: 33.3%; }
+
+  .column.fourth {
+    width: 24.95%; }
+
+  .column.flow-opposite {
+    float: right; } }
+.clearfix {
+  overflow: hidden;
+  *zoom: 1; }
+
+@font-face {
+  font-family: 'ArvoRegular';
+  src: url("/fonts/unicornbreeders-regular.eot");
+  src: url("/fonts/unicornbreeders-regular.eot") format("embedded-opentype"), url("/fonts/unicornbreeders-regular.woff") format("woff"), url("/fonts/unicornbreeders-regular.ttf") format("truetype"), url("/fonts/unicornbreeders-regular.svg#ArvoRegular") format("svg"); }
+
+@font-face {
+  font-family: 'ArvoBold';
+  src: url("/fonts/unicornbreeders-bold.eot");
+  src: url("/fonts/unicornbreeders-bold.eot") format("embedded-opentype"), url("/fonts/unicornbreeders-bold.woff") format("woff"), url("/fonts/unicornbreeders-bold.ttf") format("truetype"), url("/fonts/unicornbreeders-bold.svg#ArvoBold") format("svg"); }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 97%; }
+
+html body {
+  background-color: #222;
+  color: white;
+  font-family: 'ArvoRegular'; }
+html a {
+  color: white; }
+
+html body header {
+  text-align: center;
+  margin: 1em; }
+  html body header .logo {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    width: 50vw; }
+html body footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center; }
+
+@media (min-width: 40rem) {
+  html body header .logo {
+    width: 30vw; } }
+
+
+/*# sourceMappingURL=app.css.map*/
