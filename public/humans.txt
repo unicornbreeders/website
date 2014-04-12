@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Fernando Espinosa Jiménez -- Developer -- @ferdev
+    Marina Fornes Méndez -- Designer -- @phornera
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    Ember, Handlebars, jQuery, Normalize.css, Brunch.io
